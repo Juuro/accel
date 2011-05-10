@@ -148,7 +148,7 @@
 					<object class="IBUILabel" id="100814100">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">290</int>
-						<string key="NSFrame">{{20, 138}, {280, 21}}</string>
+						<string key="NSFrame">{{117, 138}, {59, 21}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="199902348"/>
@@ -166,7 +166,7 @@
 					<object class="IBUILabel" id="199902348">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">290</int>
-						<string key="NSFrame">{{20, 167}, {280, 21}}</string>
+						<string key="NSFrame">{{20, 138}, {77, 21}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -295,7 +295,6 @@
 						<int key="objectID">6</int>
 						<reference key="object" ref="774585933"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="959439270"/>
 							<reference ref="824323912"/>
 							<reference ref="56414833"/>
 							<reference ref="531211391"/>
@@ -304,6 +303,7 @@
 							<reference ref="601228686"/>
 							<reference ref="100814100"/>
 							<reference ref="199902348"/>
+							<reference ref="959439270"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -376,7 +376,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">41</int>
+			<int key="maxID">42</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
