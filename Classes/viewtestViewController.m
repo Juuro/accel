@@ -108,27 +108,40 @@ CGFloat RadiansToDegrees(CGFloat radians) {return radians * 180/M_PI;};
     float accelZ = [acceleration z];
     
     float angle;
+    float angle2;
     
     switch (device.orientation) {
         case UIDeviceOrientationPortrait:
             angle = atan2(-accelY, accelZ);
             angle = RadiansToDegrees(angle);
             labelAngle.text = [NSString stringWithFormat:@"%f", angle];
+            
+            angle2 = atan2(accelY, -accelX);
+            [arrowImage setTransform:CGAffineTransformMakeRotation(angle2)];
             break;
         case UIDeviceOrientationPortraitUpsideDown:
             angle = atan2(accelY, -accelZ);
             angle = -(RadiansToDegrees(angle)-180);
             labelAngle.text = [NSString stringWithFormat:@"%f", angle];
+            
+            angle2 = atan2(-accelY, accelX);
+            [arrowImage setTransform:CGAffineTransformMakeRotation(angle2)];
             break;
         case UIDeviceOrientationLandscapeLeft:
             angle = atan2(-accelX, accelZ);
             angle = RadiansToDegrees(angle);
             labelAngle.text = [NSString stringWithFormat:@"%f", angle];
+            
+            angle2 = atan2(-accelY, accelX)+DegreesToRadians(90);
+            [arrowImage setTransform:CGAffineTransformMakeRotation(angle2)];
             break;
         case UIDeviceOrientationLandscapeRight:
             angle = atan2(accelX, -accelZ);
             angle = -(RadiansToDegrees(angle)-180);
             labelAngle.text = [NSString stringWithFormat:@"%f", angle];
+            
+            angle2 = atan2(accelY, -accelX)+DegreesToRadians(90);
+            [arrowImage setTransform:CGAffineTransformMakeRotation(angle2)];
             break;
         case UIDeviceOrientationFaceUp:
             labelAngle.text = @"Face Up";

@@ -20,6 +20,8 @@
     IBOutlet UIProgressView *progressY;
     IBOutlet UIProgressView *progressZ;
     
+    IBOutlet UIImageView *arrowImage;
+    
     UIAccelerometer *accelerometer;
 }
 @property (nonatomic, retain) IBOutlet UILabel *labelX;

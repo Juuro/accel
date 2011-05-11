@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* viewtestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* viewtestViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* viewtestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* viewtestViewController.m */; };
+		B339F77B1379FDB80072AA04 /* Arrow_green.png in Resources */ = {isa = PBXBuildFile; fileRef = B339F77A1379FDB80072AA04 /* Arrow_green.png */; };
 		B36B07831373856800BFB90B /* bg-texture.png in Resources */ = {isa = PBXBuildFile; fileRef = B36B07821373856800BFB90B /* bg-texture.png */; };
 		B3A72A1A12D504A8002BDAC4 /* PS_AppIcon_feather_114.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A72A1912D504A8002BDAC4 /* PS_AppIcon_feather_114.png */; };
 		B3A72A1C12D504AE002BDAC4 /* PS_AppIcon_feather_57.png in Resources */ = {isa = PBXBuildFile; fileRef = B3A72A1B12D504AE002BDAC4 /* PS_AppIcon_feather_57.png */; };
@@ -36,6 +37,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* viewtest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewtest_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* viewtest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "viewtest-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B339F77A1379FDB80072AA04 /* Arrow_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow_green.png; sourceTree = "<group>"; };
 		B36B07821373856800BFB90B /* bg-texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-texture.png"; sourceTree = "<group>"; };
 		B3A72A1912D504A8002BDAC4 /* PS_AppIcon_feather_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PS_AppIcon_feather_114.png; sourceTree = "<group>"; };
 		B3A72A1B12D504AE002BDAC4 /* PS_AppIcon_feather_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PS_AppIcon_feather_57.png; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				B3A72A1B12D504AE002BDAC4 /* PS_AppIcon_feather_57.png */,
 				B36B07821373856800BFB90B /* bg-texture.png */,
 				B3A72A1912D504A8002BDAC4 /* PS_AppIcon_feather_114.png */,
+				B339F77A1379FDB80072AA04 /* Arrow_green.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -186,6 +189,7 @@
 				B3A72A1C12D504AE002BDAC4 /* PS_AppIcon_feather_57.png in Resources */,
 				B3A72A1F12D506B8002BDAC4 /* MainWindow-iPad.xib in Resources */,
 				B36B07831373856800BFB90B /* bg-texture.png in Resources */,
+				B339F77B1379FDB80072AA04 /* Arrow_green.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
